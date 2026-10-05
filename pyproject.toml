@@ -1,0 +1,16 @@
+[project]
+name = "comfyui-saymaker"
+description = "Generate and edit images and animate them into video in ComfyUI through SayMaker: Veo 3.1, Kling 3.0, Seedance 2.0, Nano Banana 2 and more on one API key."
+version = "0.1.0"
+license = { text = "MIT" }
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/hanshs474/ComfyUI-SayMaker"
+Homepage = "https://saymaker.ai/?utm_source=comfyui&utm_medium=node"
+Documentation = "https://saymaker.readthedocs.io/"
+
+[tool.comfy]
+PublisherId = "saymaker"
+DisplayName = "ComfyUI-SayMaker"
+Icon = "https://saymaker.ai/icon.png"
